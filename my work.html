@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MY work</title>
+    <link rel="stylesheet" href="css/main.css">
+	<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+    <h1 class="hidden">Contact Page</h1>
+    <header class="mainheader">
+      <nav id="mainnav">
+        <h2 class="hidden">Main Navigation</h2>
+        <div class="ncontent">
+			<a id="logo" href="my work.html"> <img src="images/logo-white.svg" alt="Ayman oualifi Logo"></a>
+          <button id="navbutton"></button>
+        </div>
+            <div id="menucontent">
+              <ul id="togglemenu">
+                <li><a href="about.html"> About me </a></li>
+                    <li><a href="contact.html"> Contact</a></li>
+              </ul>
+          </div>
+      </nav>
+    </header>
+    </main>
+
+	<section>
+		<div class="mainNamecontainer">
+		     <div class="bgrdecoimage2"></div>
+		     <h1 class="centered">Photography</h1>
+	    </div>
+	</section>
+
+	<h2 id="representworks">click on the photo to see my project "togetherness"</h2>
+<section id="workGallery">
+	<div class="row">
+		<div class="column">
+		  <img src="images/bond.JPG" style="width:60%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+		</div>
+		
+	  </div>
+	  
+	  <div id="myModal" class="modal">
+		<span class="close cursor" onclick="closeModal()">&times;</span>
+		<div class="modal-content">
+	  
+		  <div class="mySlides">
+			<div class="numbertext">1 / 4</div>
+			<img src="images/bond.JPG" style="width:50%">
+		  </div>
+	  
+		  <div class="mySlides">
+			<div class="numbertext">2 / 4</div>
+			<img src="images/lost (2).JPG" style="width:50%">
+		  </div>
+	  
+		  <div class="mySlides">
+			<div class="numbertext">3 / 4</div>
+			<img src="images/friendship.JPG" style="width:50%">
+		  </div>
+		  
+		  <div class="mySlides">
+			<div class="numbertext">4 / 4</div>
+			<img src="images/hope.JPG" style="width:50%">
+		  </div>
+		  
+
+		  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+	  
+		  <div class="caption-container">
+			<p id="caption"></p>
+		  </div>
+		  
+		  <div class="insidecolumn">
+			<img class="demo cursor" src="images/bond.JPG" style="width:100%" onclick="currentSlide(1)" alt="Strong Bond">
+		  </div>
+		  <div class="insidecolumn">
+			<img class="demo cursor" src="images/lost (2).JPG" style="width:100%" onclick="currentSlide(2)" alt="empty shell">
+		  </div>
+		  <div class="insidecolumn">
+			<img class="demo cursor" src="images/friendship.JPG" style="width:100%" onclick="currentSlide(3)" alt="infinity">
+		  </div>
+		  <div class="insidecolumn">
+			<img class="demo cursor" src="images/hope.JPG" style="width:100%" onclick="currentSlide(4)" alt="Hope">
+		  </div>
+		 
+		</div>
+	  </div>
+	  
+	  <section>
+		<div class="mainNamecontainer2">
+		     <h1 class="centered">Design</h1>
+	    </div>
+	</section>
+
+	<div class="projects">
+		<div class="item">
+		  <a href="#!">
+			<img src="images/boogie-bottoms.png" alt="Project" width="80%">
+		  </a>
+		  <a href="#" class="btn-light">
+			<i class="check"></i> Boogie Bottoms Logo (mockup-project)
+		  </a>
+		</div>
+		<div class="item">
+		  <a href="#!">
+			<img src="images/logo-black.svg" alt="Project">
+		  </a>
+		  <a href="#" class="btn-light">
+			<i class="check"></i> when punk and graphic design combine
+		  </a>
+		</div>
+		<div class="item">
+		  <a href="#!">
+			<img src="images/smooth.png" alt="Project">
+		  </a>
+		  <a href="#" class="btn-light">
+			<i class="check"></i> ceci's banner ad
+		  </a>
+		</div>
+		<div class="item">
+		  <a href="#!">
+			<img src="images/b-e.png" alt="Project">
+		  </a>
+		  <a href="#" class="btn-light">
+			<i class="check"></i> ceci's product (cosmetic advertising)
+		  </a>
+		</div>
+		<div class="item">
+		  <a href="#!">
+			<img src="images/mf logo.png" alt="Project">
+		  </a>
+		  <a href="#" class="btn-light">
+			<i class="check"></i> Moroccan food's logo
+		  </a>
+		</div>
+	  </div>
+	</section>
+
+	<section>
+		<div class="mainNamecontainer3">
+		     <h1 class="centered">Deemo Reel</h1>
+	    </div>
+	</section>
+
+	<video width="80%" controls>
+		<source src="video/demo-reel.mp4" type="video/mp4">
+		<source src="video/FIP_video.ogg" type="video/ogg">
+		Your browser does not support the video tag.
+	  </video>
+
+	<footer id="mainFooter">
+		<h2 class="hidden">Footer Navigation</h2>
+		<section id="footerNavContainer">
+					<div class="footerNav">
+						<ul id="information">
+							<li><a href="my work.html">My Work</a></li>
+							<li><a href="about.html">About me</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+					
+					<hr class="footerline">
+					<ul id="footerul">
+						<a href="#"><img src="images/twitter.png" alt="twitter" width="35px"></a>
+						<a href="#"><img src="images/instagram.png" alt="instagram" width="35px"></a>
+						<a href="#"><img src="images/facebook.png" alt="facebook" width="35px"></a>
+						<p>oualifiayman9@gmail.com</p>
+						<div id="footerLogoContainer">
+							<img src="images/logo-white.svg" alt="main logo" id="footerlogo" width="90px">
+						</div>
+					</ul>
+		</section>
+	</footer>
+
+	<script>
+
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+	</script>
+
+
+	<script type="module" src="js/main.js"></script>
+
+</body>
+</html>
