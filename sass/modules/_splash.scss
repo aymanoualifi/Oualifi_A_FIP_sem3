@@ -1,0 +1,46 @@
+#splashmain{
+    width: 100%;
+    height: 100%;
+}
+body{
+        background: linear-gradient(-30deg, #000000, #130525, #681a27, #890512);
+        background-size: 400% 400%;
+        animation: gradient 7s  infinite;
+
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+}
+
+#logosplash{
+    width: 28vw;
+    height: 90vh;
+    justify-content: space-around;
+    padding: 2em;
+    
+}
+
+.logoarea{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    opacity: 0;
+}
+
+#buttonstyle{
+    display: flex;
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 1vw;
+}

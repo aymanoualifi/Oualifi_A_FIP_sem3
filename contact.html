@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Contact Page</title>
+</head>
+<body>
+    <h1 class="hidden">Contact Page</h1>
+    <header class="mainheader">
+      <nav id="mainnav">
+        <h2 class="hidden">Main Navigation</h2>
+        <div class="ncontent">
+          <a id="logo" href="index.html"> <img src="images/logo-white.svg" alt="Ayman oualifi Logo"></a>
+          <button id="navbutton"></button>
+        </div>
+            <div id="menucontent">
+              <ul id="togglemenu">
+                <li><a href="my work.html"> My Work </a></li>
+                    <li><a href="about.html"> About Me </a></li>
+                    <li><a href="contact.html"> Contact</a></li>
+              </ul>
+          </div>
+      </nav>
+    </header>
+   
+    <h1 class="lg-heading">
+      Contact
+      <span class="text-secondary">Me</span>
+    </h1>
+    <h2 class="sm-heading">
+      I'd love to be in touch with you!<br>
+       Fill the form to reach me
+    </h2>
+    <div class="formbold-main-wrapper">
+      <div class="formbold-form-wrapper">
+        <form action="" method="POST" name="contact-form">
+          <div class="formbold-mb-5">
+            <label for="name" class="formbold-form-label"> Full Name </label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Full Name"
+              class="formbold-form-input"
+            />
+          </div>
+         <div class="formbold-mb-5">
+            <label for="email" class="formbold-form-label"> Email Address </label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email"
+              class="formbold-form-input"
+            />
+          </div>
+          <div class="formbold-mb-5">
+            <label for="subject" class="formbold-form-label"> Subject </label>
+            <input
+              type="text"
+              name="subject"
+              id="subject"
+              placeholder="Enter your subject"
+              class="formbold-form-input"
+            />
+          </div>
+          <div class="formbold-mb-5">
+            <label for="message" class="formbold-form-label"> Message </label>
+            <textarea
+              rows="6"
+              name="message"
+              id="message"
+              placeholder="Type your message"
+              class="formbold-form-input"
+            ></textarea>
+          </div>
+          <div>
+            <button class="formbold-btn">Submit</button>
+            <p class="please_wait"></p>
+            <p class="error"></p>
+            <p class="success"> </p>
+          </div>
+        </form>
+      </div>
+    </div>
+ 
+</body>
+<footer id="mainFooter">
+  <h2 class="hidden">Footer Navigation</h2>
+  <section id="footerNavContainer">
+        <div class="footerNav">
+          <ul id="information">
+            <li><a href="my work.html">My Work</a></li>
+            <li><a href="about.html">About me</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        
+        <hr class="footerline">
+        <ul id="footerul">
+          <a href="#"><img src="images/twitter.png" alt="twitter" width="35px"></a>
+          <a href="#"><img src="images/instagram.png" alt="instagram" width="35px"></a>
+          <a href="#"><img src="images/facebook.png" alt="facebook" width="35px"></a>
+          <p>oualifiayman9@gmail.com</p>
+          <div id="footerLogoContainer">
+            <img src="images/logo-white.svg" alt="main logo" id="footerlogo" width="90px">
+          </div>
+        </ul>
+  </section>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+<script src="js/gsap.js" > </script>
+<script src="js/main.js" type="module" defer></script>
+</html>
