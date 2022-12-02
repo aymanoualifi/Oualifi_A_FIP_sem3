@@ -1,6 +1,6 @@
 # Ayman_oualifi_FIP
 
-Creating the portfolio site showing my designs and photographs <br>You can see my portfolio site here -> https://www.ouayman.com<br>
+Creating the portfolio site showing my designs and photographs <br>You can see my portfolio site here ->http://ouayman.com/<br>
 The website consists of splash page, my work, about and contact page.
 
 ## Description - Development Part
